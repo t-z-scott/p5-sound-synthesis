@@ -11,7 +11,7 @@ let panner = new Tone.Panner().connect(gain);
 let ampEnv = new Tone.AmplitudeEnvelope({
   attack: 0.01,
   decay: 0.2,
-  sustain: 0.25,
+  sustain: 0.35,
   release: 0.4,
 }).connect(panner);
 sawOsc.connect(ampEnv);
